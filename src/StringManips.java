@@ -56,6 +56,7 @@ public class StringManips {
         city = scan.nextLine();
         System.out.println("Hnter your home state: ");
         state = scan.nextLine();
+        scan.close();
         
         System.out.println(state.toUpperCase()+city+state.toUpperCase());
         

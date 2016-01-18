@@ -10,6 +10,11 @@ import java.awt.*;
 public class Colors extends JApplet{
 
     
+    /**
+     * 
+     */
+    private static final long serialVersionUID = -3949439620705562697L;
+    
     public static final int PAGE_WIDTH = 600; 
     public static final int PAGE_HEIGHT = 400;
 

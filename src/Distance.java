@@ -27,7 +27,7 @@ public class Distance {
         System.out.print ("Enter the coordinates of the second point: "); 
         x2 = scan.nextDouble(); 
         y2 = scan.nextDouble();
-        
+        scan.close();
         
         // Compute the distance // Print out the answer
         distance = Math.sqrt(Math.pow(x1-x2,2) + Math.pow(y1-y2,2));

@@ -9,6 +9,11 @@ import java.awt.*;
  */
 public class Coords extends JApplet {
 
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 5885100654140650407L;
+    
     // Declare size constants 
     public static final int MAX_SIZE = 300; 
     public static final int PAGE_WIDTH = 600; 
